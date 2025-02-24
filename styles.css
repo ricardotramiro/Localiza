@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins'; sans-serif;
+}
+
+.link-header {
+    width: 83px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color:#17233D;
+    margin-left:42px ;
+    cursor: pointer;
+}
+
+.link-header:hover {opacity: .8;}
+
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border-width: 1px;
+    background:  #6FBF44;
+    border: 1px solid #4CB538;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 47px;
+    cursor: pointer;
+    margin-left: 42px;
+    
+}
+
+.button-header:active {opacity: .5;}
+
+.logo-image {
+    width: 596;
+    height: 500px;
+    margin-left: 121px;
+    margin-top: 246px;
+    display: inline-block;
+}
+
+section {
+    margin-left: 85px;
+    display: inline-block;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    height: 99;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-bottom: 55px;
+    margin-top: 47px;
+}
+
+.link-main {
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+.link-main:active {opacity: .5;}
+
+
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+    .link-header {
+        display: none; /* Esconde os links do header */
+    }
+
+    .logo-image {
+        display: block;
+        position: absolute;
+        width: 312px;
+        height: 288px;
+        margin: 490px 39px 22px 39px;
+
+    }
+
+    section {
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
+        width: auto;
+        height: auto;
+        margin: 124px 55px 29px 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 28px;
+        width: 90%;
+        margin: 30px 43px 26px 10px;
+    }
+
+    .link-main {
+        font-size: 16px;
+        display: block;
+        margin: auto;
+        width:112px ;
+        height: 27px;
+    }
+
+    .button-header {
+        margin-left: 283px;
+        display: block;
+        width:91px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    
+    }
+}
